@@ -29,6 +29,12 @@
 		8269C89C2AA70BE2009D6708 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C89B2AA70BE2009D6708 /* ChatMessage.swift */; };
 		8269C89E2AA71786009D6708 /* ChatMessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C89D2AA71786009D6708 /* ChatMessageListView.swift */; };
 		8269C8A02AA71EF0009D6708 /* ChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C89F2AA71EF0009D6708 /* ChatMessageView.swift */; };
+		8269C8A22AA73333009D6708 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8A12AA73333009D6708 /* SettingsView.swift */; };
+		8269C8A42AA73372009D6708 /* Image+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8A32AA73372009D6708 /* Image+extension.swift */; };
+		8269C8A62AA7373B009D6708 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8A52AA7373B009D6708 /* ImagePicker.swift */; };
+		8269C8A82AA7449C009D6708 /* UIImagePickerController.SourceType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8A72AA7449C009D6708 /* UIImagePickerController.SourceType+Extensions.swift */; };
+		8269C8AA2AA7460E009D6708 /* UIImage+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8A92AA7460E009D6708 /* UIImage+extensions.swift */; };
+		8269C8AC2AA748FB009D6708 /* Storage+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8AB2AA748FB009D6708 /* Storage+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +58,12 @@
 		8269C89B2AA70BE2009D6708 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 		8269C89D2AA71786009D6708 /* ChatMessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageListView.swift; sourceTree = "<group>"; };
 		8269C89F2AA71EF0009D6708 /* ChatMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageView.swift; sourceTree = "<group>"; };
+		8269C8A12AA73333009D6708 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8269C8A32AA73372009D6708 /* Image+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+extension.swift"; sourceTree = "<group>"; };
+		8269C8A52AA7373B009D6708 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8269C8A72AA7449C009D6708 /* UIImagePickerController.SourceType+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController.SourceType+Extensions.swift"; sourceTree = "<group>"; };
+		8269C8A92AA7460E009D6708 /* UIImage+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+extensions.swift"; sourceTree = "<group>"; };
+		8269C8AB2AA748FB009D6708 /* Storage+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storage+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +132,8 @@
 				8269C8992AA70735009D6708 /* GroupDetailView.swift */,
 				8269C89D2AA71786009D6708 /* ChatMessageListView.swift */,
 				8269C89F2AA71EF0009D6708 /* ChatMessageView.swift */,
+				8269C8A12AA73333009D6708 /* SettingsView.swift */,
+				8269C8A52AA7373B009D6708 /* ImagePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -128,6 +142,10 @@
 			isa = PBXGroup;
 			children = (
 				8269C8862AA60B1B009D6708 /* String+extensions.swift */,
+				8269C8A32AA73372009D6708 /* Image+extension.swift */,
+				8269C8A72AA7449C009D6708 /* UIImagePickerController.SourceType+Extensions.swift */,
+				8269C8A92AA7460E009D6708 /* UIImage+extensions.swift */,
+				8269C8AB2AA748FB009D6708 /* Storage+extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -226,18 +244,24 @@
 				8269C8A02AA71EF0009D6708 /* ChatMessageView.swift in Sources */,
 				8269C88C2AA611BF009D6708 /* LoginView.swift in Sources */,
 				8269C8982AA62A71009D6708 /* GroupListView.swift in Sources */,
+				8269C8A62AA7373B009D6708 /* ImagePicker.swift in Sources */,
 				8269C89C2AA70BE2009D6708 /* ChatMessage.swift in Sources */,
 				8269C8962AA620ED009D6708 /* GroupModel.swift in Sources */,
 				8269C89E2AA71786009D6708 /* ChatMessageListView.swift in Sources */,
 				8269C88E2AA61839009D6708 /* MainView.swift in Sources */,
 				8269C88A2AA610B6009D6708 /* Model.swift in Sources */,
+				8269C8AC2AA748FB009D6708 /* Storage+extensions.swift in Sources */,
 				8269C8902AA6193E009D6708 /* AppState.swift in Sources */,
+				8269C8A22AA73333009D6708 /* SettingsView.swift in Sources */,
+				8269C8A82AA7449C009D6708 /* UIImagePickerController.SourceType+Extensions.swift in Sources */,
 				8269C8872AA60B1B009D6708 /* String+extensions.swift in Sources */,
 				8269C8842AA609A0009D6708 /* SignUpView.swift in Sources */,
 				8269C8922AA61CF0009D6708 /* GroupListContainerView.swift in Sources */,
 				8269C8692AA60526009D6708 /* WhatsUpApp.swift in Sources */,
+				8269C8A42AA73372009D6708 /* Image+extension.swift in Sources */,
 				8269C8942AA61DB7009D6708 /* AddNewGroupView.swift in Sources */,
 				8269C89A2AA70735009D6708 /* GroupDetailView.swift in Sources */,
+				8269C8AA2AA7460E009D6708 /* UIImage+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

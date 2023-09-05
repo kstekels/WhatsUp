@@ -22,10 +22,35 @@ class Model: ObservableObject {
         let request = user.createProfileChangeRequest()
         request.displayName = displayName
         try await request.commitChanges()
+        try await updateUserInfoForAllMessages(uid: user.uid, updateInfo: ["displayName": user.displayName ?? "Guest"])
     }
     
     func detachFirebaseListener() {
         self.firestoreListener?.remove()
+    }
+    
+    func updatePhotoURL(for user: User, photoURL: URL) async throws {
+        let request = user.createProfileChangeRequest()
+        request.photoURL = photoURL
+        try await request.commitChanges()
+        
+        // update user info
+        try await updateUserInfoForAllMessages(uid: user.uid, updateInfo: ["profilePhotoURL": photoURL.absoluteString])
+    }
+    
+    private func updateUserInfoForAllMessages(uid: String, updateInfo: [AnyHashable: Any]) async throws {
+        let db = Firestore.firestore()
+        let groupDocuments = try await db.collection("groups").getDocuments().documents
+        
+        for groupDocument in groupDocuments {
+            let messages = try await groupDocument.reference.collection("messages")
+                .whereField("uid", isEqualTo: uid)
+                .getDocuments().documents
+            for message in messages {
+                try await message.reference.updateData(updateInfo)
+            }
+        }
+        
     }
     
     func listenForChatMessages(in group: Group) {
