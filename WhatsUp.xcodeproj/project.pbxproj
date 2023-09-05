@@ -8,18 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		8269C8692AA60526009D6708 /* WhatsUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8682AA60526009D6708 /* WhatsUpApp.swift */; };
-		8269C86B2AA60526009D6708 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C86A2AA60526009D6708 /* ContentView.swift */; };
 		8269C86D2AA60527009D6708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8269C86C2AA60527009D6708 /* Assets.xcassets */; };
 		8269C8712AA60527009D6708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8269C8702AA60527009D6708 /* Preview Assets.xcassets */; };
+		8269C8782AA605B4009D6708 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8269C8772AA605B4009D6708 /* GoogleService-Info.plist */; };
+		8269C87B2AA60664009D6708 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8269C87A2AA60664009D6708 /* FirebaseAuth */; };
+		8269C87D2AA60664009D6708 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8269C87C2AA60664009D6708 /* FirebaseFirestore */; };
+		8269C87F2AA60664009D6708 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8269C87E2AA60664009D6708 /* FirebaseFirestoreSwift */; };
+		8269C8812AA60664009D6708 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8269C8802AA60664009D6708 /* FirebaseStorage */; };
+		8269C8842AA609A0009D6708 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8832AA609A0009D6708 /* SignUpView.swift */; };
+		8269C8872AA60B1B009D6708 /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8862AA60B1B009D6708 /* String+extensions.swift */; };
+		8269C88A2AA610B6009D6708 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8892AA610B6009D6708 /* Model.swift */; };
+		8269C88C2AA611BF009D6708 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C88B2AA611BF009D6708 /* LoginView.swift */; };
+		8269C88E2AA61839009D6708 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C88D2AA61839009D6708 /* MainView.swift */; };
+		8269C8902AA6193E009D6708 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C88F2AA6193E009D6708 /* AppState.swift */; };
+		8269C8922AA61CF0009D6708 /* GroupListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8912AA61CF0009D6708 /* GroupListContainerView.swift */; };
+		8269C8942AA61DB7009D6708 /* AddNewGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8932AA61DB7009D6708 /* AddNewGroupView.swift */; };
+		8269C8962AA620ED009D6708 /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8952AA620ED009D6708 /* GroupModel.swift */; };
+		8269C8982AA62A71009D6708 /* GroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8972AA62A71009D6708 /* GroupListView.swift */; };
+		8269C89A2AA70735009D6708 /* GroupDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C8992AA70735009D6708 /* GroupDetailView.swift */; };
+		8269C89C2AA70BE2009D6708 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C89B2AA70BE2009D6708 /* ChatMessage.swift */; };
+		8269C89E2AA71786009D6708 /* ChatMessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C89D2AA71786009D6708 /* ChatMessageListView.swift */; };
+		8269C8A02AA71EF0009D6708 /* ChatMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8269C89F2AA71EF0009D6708 /* ChatMessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8269C8652AA60526009D6708 /* WhatsUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8269C8682AA60526009D6708 /* WhatsUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsUpApp.swift; sourceTree = "<group>"; };
-		8269C86A2AA60526009D6708 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8269C86C2AA60527009D6708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8269C86E2AA60527009D6708 /* WhatsUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhatsUp.entitlements; sourceTree = "<group>"; };
 		8269C8702AA60527009D6708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8269C8772AA605B4009D6708 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8269C8832AA609A0009D6708 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8269C8862AA60B1B009D6708 /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
+		8269C8892AA610B6009D6708 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8269C88B2AA611BF009D6708 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8269C88D2AA61839009D6708 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8269C88F2AA6193E009D6708 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8269C8912AA61CF0009D6708 /* GroupListContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListContainerView.swift; sourceTree = "<group>"; };
+		8269C8932AA61DB7009D6708 /* AddNewGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGroupView.swift; sourceTree = "<group>"; };
+		8269C8952AA620ED009D6708 /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		8269C8972AA62A71009D6708 /* GroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListView.swift; sourceTree = "<group>"; };
+		8269C8992AA70735009D6708 /* GroupDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailView.swift; sourceTree = "<group>"; };
+		8269C89B2AA70BE2009D6708 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		8269C89D2AA71786009D6708 /* ChatMessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageListView.swift; sourceTree = "<group>"; };
+		8269C89F2AA71EF0009D6708 /* ChatMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8269C87B2AA60664009D6708 /* FirebaseAuth in Frameworks */,
+				8269C8812AA60664009D6708 /* FirebaseStorage in Frameworks */,
+				8269C87D2AA60664009D6708 /* FirebaseFirestore in Frameworks */,
+				8269C87F2AA60664009D6708 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,10 +88,13 @@
 		8269C8672AA60526009D6708 /* WhatsUp */ = {
 			isa = PBXGroup;
 			children = (
+				8269C8882AA610AB009D6708 /* Models */,
+				8269C8852AA60B0A009D6708 /* Extensions */,
+				8269C8822AA60990009D6708 /* Views */,
 				8269C8682AA60526009D6708 /* WhatsUpApp.swift */,
-				8269C86A2AA60526009D6708 /* ContentView.swift */,
 				8269C86C2AA60527009D6708 /* Assets.xcassets */,
 				8269C86E2AA60527009D6708 /* WhatsUp.entitlements */,
+				8269C8772AA605B4009D6708 /* GoogleService-Info.plist */,
 				8269C86F2AA60527009D6708 /* Preview Content */,
 			);
 			path = WhatsUp;
@@ -67,6 +106,41 @@
 				8269C8702AA60527009D6708 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8269C8822AA60990009D6708 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8269C8832AA609A0009D6708 /* SignUpView.swift */,
+				8269C88B2AA611BF009D6708 /* LoginView.swift */,
+				8269C88D2AA61839009D6708 /* MainView.swift */,
+				8269C8912AA61CF0009D6708 /* GroupListContainerView.swift */,
+				8269C8932AA61DB7009D6708 /* AddNewGroupView.swift */,
+				8269C8972AA62A71009D6708 /* GroupListView.swift */,
+				8269C8992AA70735009D6708 /* GroupDetailView.swift */,
+				8269C89D2AA71786009D6708 /* ChatMessageListView.swift */,
+				8269C89F2AA71EF0009D6708 /* ChatMessageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8269C8852AA60B0A009D6708 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8269C8862AA60B1B009D6708 /* String+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8269C8882AA610AB009D6708 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8269C8892AA610B6009D6708 /* Model.swift */,
+				8269C88F2AA6193E009D6708 /* AppState.swift */,
+				8269C8952AA620ED009D6708 /* GroupModel.swift */,
+				8269C89B2AA70BE2009D6708 /* ChatMessage.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +159,12 @@
 			dependencies = (
 			);
 			name = WhatsUp;
+			packageProductDependencies = (
+				8269C87A2AA60664009D6708 /* FirebaseAuth */,
+				8269C87C2AA60664009D6708 /* FirebaseFirestore */,
+				8269C87E2AA60664009D6708 /* FirebaseFirestoreSwift */,
+				8269C8802AA60664009D6708 /* FirebaseStorage */,
+			);
 			productName = WhatsUp;
 			productReference = 8269C8652AA60526009D6708 /* WhatsUp.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 8269C85C2AA60526009D6708;
+			packageReferences = (
+				8269C8792AA60664009D6708 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8269C8662AA60526009D6708 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +212,7 @@
 			files = (
 				8269C8712AA60527009D6708 /* Preview Assets.xcassets in Resources */,
 				8269C86D2AA60527009D6708 /* Assets.xcassets in Resources */,
+				8269C8782AA605B4009D6708 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +223,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8269C86B2AA60526009D6708 /* ContentView.swift in Sources */,
+				8269C8A02AA71EF0009D6708 /* ChatMessageView.swift in Sources */,
+				8269C88C2AA611BF009D6708 /* LoginView.swift in Sources */,
+				8269C8982AA62A71009D6708 /* GroupListView.swift in Sources */,
+				8269C89C2AA70BE2009D6708 /* ChatMessage.swift in Sources */,
+				8269C8962AA620ED009D6708 /* GroupModel.swift in Sources */,
+				8269C89E2AA71786009D6708 /* ChatMessageListView.swift in Sources */,
+				8269C88E2AA61839009D6708 /* MainView.swift in Sources */,
+				8269C88A2AA610B6009D6708 /* Model.swift in Sources */,
+				8269C8902AA6193E009D6708 /* AppState.swift in Sources */,
+				8269C8872AA60B1B009D6708 /* String+extensions.swift in Sources */,
+				8269C8842AA609A0009D6708 /* SignUpView.swift in Sources */,
+				8269C8922AA61CF0009D6708 /* GroupListContainerView.swift in Sources */,
 				8269C8692AA60526009D6708 /* WhatsUpApp.swift in Sources */,
+				8269C8942AA61DB7009D6708 /* AddNewGroupView.swift in Sources */,
+				8269C89A2AA70735009D6708 /* GroupDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +384,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.karlis.WhatsUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,10 +424,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.karlis.WhatsUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -354,6 +455,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8269C8792AA60664009D6708 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8269C87A2AA60664009D6708 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8269C8792AA60664009D6708 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8269C87C2AA60664009D6708 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8269C8792AA60664009D6708 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8269C87E2AA60664009D6708 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8269C8792AA60664009D6708 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		8269C8802AA60664009D6708 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8269C8792AA60664009D6708 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8269C85D2AA60526009D6708 /* Project object */;
 }
